@@ -1,0 +1,161 @@
+body{
+	background: #C0CAC9;
+	background: -webkit-linear-gradient(top left, #C0CAC9, #8C90BA);
+	background: -moz-linear-gradient(top left, #C0CAC9, #8C90BA);
+	background: linear-gradient(to bottom right, #C0CAC9, #8C90BA);
+	display: flex;
+	align-items: center;
+}
+
+
+
+.mobile-container {
+	width: 400px;
+	background: #fff;
+	margin: auto;
+	margin: auto;
+    border-radius: 3px;
+	position: relative;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+header input {
+	background: #eee;
+	border: none;
+	border-radius: 3px;
+	font-size: 1.3rem;
+}
+
+header button {
+	background: transparent;
+	border: none;
+	font-size: 1.3rem;
+}
+
+.favorite-meals {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+	padding: 0;
+	background: #FBF3FA;
+	height: 130px;
+	overflow: auto;
+	padding-top: 15px;
+}
+
+.fav_head {
+	text-align: center;
+}
+
+.favorite-meals li {
+	width: 90px;
+	text-align: center;
+	margin: 5px;
+	position: relative;
+}
+
+.favorite-meals li img {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	border: 2px solid #ffff;
+	box-shadow: 0 0 10px 2px #3333;
+}
+
+.favorite-meals li .rmvBtn {
+	position: absolute;
+	top: 0;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	padding: 0;
+}
+
+.favorite-meals li .rmvBtn:hover {
+	border: 1px solid;
+}
+
+.favorite-meals li span {
+	font-size: 0.8rem;
+}
+
+.meal-header {
+	position: relative;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.meal-header .random {
+    position: absolute;
+	top: 1rem;
+	left: 1rem;
+	padding: 5px;
+	background: #FBF3FA;
+    color: #564d4d;
+	border-radius: 5px;
+}
+
+.meal-header img {
+	height: 250px;
+	width: 100%;
+	object-fit: cover;
+    border-radius: 5px;
+}
+
+.meal-body {
+	display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #FBF3FA;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.meal-body .fav-btn {
+	border: none;
+	background-color: transparent;
+	color: #dbd0d0;
+	cursor: pointer;
+}
+
+.meal-body .fav-btn.active {
+	color: rgb(20, 20, 20);
+	border: none;
+}
+
+.fa:hover {
+	color: rgb(20, 20, 20);
+}
+
+.error-style {
+	background: #fbf3fa;
+    position: absolute;
+    top: 90px;
+    right: 130px;
+    width: 152px;
+    height: 100px;
+    box-shadow: 0px 4px 8px #888887;
+    text-align: center;
+    font-family: cursive;
+}
+
+.error-style .rmvBtn{
+	border-style: none;
+	background: transparent;
+	cursor: pointer;
+	padding: 0;
+}
